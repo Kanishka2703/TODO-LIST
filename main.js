@@ -8,7 +8,6 @@ let filter=document.getElementById("filter")
 
 document.addEventListener("DOMContentLoaded",function(e){
     let item=localStorage.getItem("item")
-    console.log(item)
     let li=document.createElement("li")
     let btn=document.createElement("button")
     btn.appendChild(document.createTextNode("X"))
